@@ -136,13 +136,10 @@
     .csvg-digit-number{
         font-size:107px;
         padding:3px 29px;
-        background:#38414a;
-        background:rgba(40,50,61,.62);
         font-family:Roboto,sans-serif;
         font-weight:300
     }
     .csvg-digit[data-tad-bind=seconds] .csvg-digit-number{
-        color:#ee5486
         }
         .csvg-digit-label{
             padding:5px;
@@ -151,7 +148,6 @@
     }
     @media only screen and (min-width:37.5em){
         .csvg-digit-label{
-        background:rgba(40,50,61,.62);
         text-align:center;
         margin-top:6px
     }
@@ -406,7 +402,6 @@
     .csvg-digit-number{
         font-size:12vw;
         padding:3px 4px;
-        background:rgba(40,50,61,.8)
     }
     .csvg-digit-label{
         font-size:12px;
@@ -443,7 +438,6 @@
         margin-top:-40px
         }
         .generic .csvg-digit-number{
-            background:rgba(40,50,61,.28)
         }
         .generic .csvg-date,.generic .csvg-digit-label{
             color:#fff
@@ -500,7 +494,6 @@
 
     }
     .plain-text .csvg-date,.plain-text .csvg-digit-label,.plain-text .csvg-digit-number,.plain-text .csvg-title{
-        color:#454545;
         background:none
     }
     @media only screen and (min-width:64.063em) and (max-width:90em){
