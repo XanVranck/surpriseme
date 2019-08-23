@@ -1,15 +1,3 @@
-<!-- <div class="countdown">
-  <div *ngFor="let time of display; let i = index" class="measurements {{time}}">
-    <p class="measurements-number">
-      {{ (showZero && displayNumbers[i] < 10) ? '0' + displayNumbers[i].trim() : displayNumbers[i]}}
-    </p>
-    <p class="measurements-text">
-      {{time}}
-    </p>
-  </div>
-</div>
-<ng-content></ng-content> -->
-
 <style>
   @-webkit-keyframes fadeInDown {
     0% {
@@ -298,12 +286,11 @@
 <div class=main-content-div>
   <div class=fixed></div>
   <div class="csvg justmarried">
-    <div class=csvg-background data-tad-control=CountdownSVG-Background><img src="//c.tadst.com/gfx/cd/wedding2.png">
+    <div class="csvg-background" data-tad-control="CountdownSVG-Background"><img src="//c.tadst.com/gfx/cd/wedding2.png">
     </div>
-    <div class=csvg-countdown data-tad-control=CountdownSVG-Countdown>
-      <div class=csvg-countdown__content>
-        <h1 class="font-cursive csvg-title" title="Just Married Countdown" data-tad-bind=title>Just Married
-          Countdown</h1>
+    <div class="csvg-countdown" data-tad-control="CountdownSVG-Countdown">
+      <div class="csvg-countdown__content">
+        <h1 class="font-cursive csvg-title" title="Party Countdown" data-tad-bind=title>Party Countdown</h1>
         <div class="">
           <countdown-timer class="csvg-digit-number" [end]="'2019-08-25 12:30'">$m</countdown-timer>
         </div>
