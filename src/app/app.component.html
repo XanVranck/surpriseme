@@ -1,2 +1,4 @@
-<app-countdown units="Month | Days | Hours | Minutes | Seconds"  end="October 23, 2019, 12:00:00"></app-countdown>
+<app-countdown *ngIf="isBeforeFirstDate()" units="Month | Days | Hours | Minutes | Seconds"  end="August 23, 2019, 13:20:00"></app-countdown>
+<p *ngIf="isBeforeSecondDateStart()">Tip: </p>
+<app-countdown *ngIf="isBeforeSecondDate()" units="Month | Days | Hours | Minutes | Seconds"  end="August 23, 2019, 14:00:00"></app-countdown>
 <router-outlet></router-outlet>
