@@ -14,7 +14,7 @@ import { CountdownTimerModule } from 'ngx-countdown-timer';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CountdownTimerModule.forRoot()
+    CountdownTimerModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -6,4 +6,6 @@ import { Component, Input, Output, EventEmitter } from '@angular/core';
   styleUrls: ['./countdown.component.css']
 })
 
-export class CountdownComponent {}
+export class CountdownComponent {
+  
+}
