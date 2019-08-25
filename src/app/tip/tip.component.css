@@ -6,3 +6,9 @@
     vertical-align: middle;
     padding: 20px;
 }
+
+@media only screen and (max-width: 600px) {
+    .tip-body{
+        width: 80%;
+    }
+}

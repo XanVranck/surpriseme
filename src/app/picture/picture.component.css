@@ -31,3 +31,15 @@ h3{
 h1{
     color: white;
 }
+
+@media only screen and (max-width: 600px) {
+    .picture-body{
+        margin: auto;
+        width: 80%;
+        padding: 20px;
+    }
+
+    h3{
+        font-size: 15px;
+    }
+}
