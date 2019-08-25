@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { InfoComponent } from './info/info.component';
 import { TipComponent } from './tip/tip.component';
 import { PictureComponent } from './picture/picture.component';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { PictureComponent } from './picture/picture.component';
     HeaderComponent,
     InfoComponent,
     TipComponent,
-    PictureComponent
+    PictureComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
