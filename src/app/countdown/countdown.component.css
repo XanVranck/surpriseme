@@ -7,7 +7,7 @@
     width: 100%;
     background: #78B7A4 url('../../assets/images/auto.png') no-repeat fixed right;
     background-size: 50%;
-    height: 500px;
+    height: 400px;
 }
 
 .countdown-body{
@@ -28,7 +28,7 @@ h2 {
     padding-top: 20px;
 }
 
-p{
+.countdown-p{
     color: #6CA390;
     width: 80px;
     height: 100px;
@@ -36,4 +36,11 @@ p{
     background-color: white;
     margin: 5px;
     font-size: 50px;
+}
+
+.countdown-text{
+    color: white;
+    width: 80px;
+    margin: 5px;
+    text-align: center;
 }
