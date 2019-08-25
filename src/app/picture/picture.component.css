@@ -5,7 +5,7 @@
 .picture-body{
     margin: auto;
     width: 50%;
-    background-color: #F2BFC6;
+    padding: 20px;
 }
 
 .container {
@@ -15,13 +15,19 @@
 
 .inner-container {
     flex-direction: column;
+    text-align: center;
 }
 
 img {
     width: 90%;
     margin-right: 20px;
+    border: solid white;
 }
 
 h3{
-    color: #2A6466;
+    color: white;
+    font-weight: normal;
+}
+h1{
+    color: white;
 }
