@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { CountdownComponent } from './countdown/countdown.component';
 import { HeaderComponent } from './header/header.component';
 import { InfoComponent } from './info/info.component';
+import { TipComponent } from './tip/tip.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CountdownComponent,
     HeaderComponent,
-    InfoComponent
+    InfoComponent,
+    TipComponent
   ],
   imports: [
     BrowserModule,
