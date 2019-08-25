@@ -1,0 +1,11 @@
+.countdonw-img{
+    height: 500px;
+    float: right;
+}
+
+.countdown {
+    width: 100%;
+    background: #78B7A4 url('../../assets/images/auto.png') no-repeat fixed right;
+    background-size: 50%;
+    height: 500px;
+}

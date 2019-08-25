@@ -1,11 +1,12 @@
 .header {
     height: 500px;
     background-color: #2a6466;
-    margin: 0px!important;
+    
 }
 
 .header-p{
     color: white;
     font-size: 100px;
-    padding: 25px;
+    padding: 5% 10% 0% 10%;
+    margin: 0px;
 }
