@@ -4,7 +4,6 @@ import { CountdownComponent } from './countdown/countdown.component';
 
 
 const routes: Routes = [
-  {path: '', component: CountdownComponent}
 ];
 
 @NgModule({

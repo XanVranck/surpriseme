@@ -1,4 +1,4 @@
-.countdonw-img{
+.countdown-img{
     height: 500px;
     float: right;
 }
@@ -8,4 +8,32 @@
     background: #78B7A4 url('../../assets/images/auto.png') no-repeat fixed right;
     background-size: 50%;
     height: 500px;
+}
+
+.countdown-body{
+    margin: auto;
+    width: 50%;
+}
+
+.container {
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+
+}
+
+h2 {
+    color: #f2bfc6;
+    font-size: 50px;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+p{
+    color: #6CA390;
+    width: 80px;
+    height: 100px;
+    text-align: center;
+    background-color: white;
+    margin: 5px;
+    font-size: 50px;
 }
