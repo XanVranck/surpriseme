@@ -7,6 +7,7 @@ import { CountdownComponent } from './countdown/countdown.component';
 import { HeaderComponent } from './header/header.component';
 import { InfoComponent } from './info/info.component';
 import { TipComponent } from './tip/tip.component';
+import { PictureComponent } from './picture/picture.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { TipComponent } from './tip/tip.component';
     CountdownComponent,
     HeaderComponent,
     InfoComponent,
-    TipComponent
+    TipComponent,
+    PictureComponent
   ],
   imports: [
     BrowserModule,
