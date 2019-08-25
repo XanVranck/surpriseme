@@ -1,13 +1,13 @@
 .header {
-    height: 500px;
     background-color: #2a6466;
-    
 }
 
 .header-p{
     color: white;
-    font-size: 80px;
-    padding: 5% 10% 0% 10%;
+    font-size: 70px;
+    padding: 5% 10% 5% 10%;
     margin: 0px;
     font-weight: bold;
+    margin: auto;
+    width: 50%;
 }

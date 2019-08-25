@@ -4,19 +4,19 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CountdownComponent } from './countdown/countdown.component';
-import { CountdownTimerModule } from 'ngx-countdown-timer';
 import { HeaderComponent } from './header/header.component';
+import { InfoComponent } from './info/info.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CountdownComponent,
-    HeaderComponent
+    HeaderComponent,
+    InfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    CountdownTimerModule.forRoot(),
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

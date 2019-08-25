@@ -1,0 +1,30 @@
+.info-body{
+    margin: auto;
+    width: 50%;
+}
+
+.container {
+    display: flex; /* or inline-flex */
+    flex-direction: row;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.inner-container {
+    display: flex; /* or inline-flex */
+    flex-direction: column;
+    width: 40%;
+}
+
+.info-p {
+    color: black;
+    text-align: left;
+    margin: 5px;
+    font-size: 20px;
+}
+
+.info-img{
+    width: 5%;
+    height: 100%;
+    margin: 5px;
+}
