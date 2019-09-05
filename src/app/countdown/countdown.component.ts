@@ -21,7 +21,7 @@ export class CountdownComponent {
   }
 
   countdown() {
-    var countDownDate = new Date(2019, 8, 9, 19,0,0,0).getTime();
+    var countDownDate = new Date(2019, 8, 8, 18,0,0,0).getTime();
     var now = new Date().getTime();
     // Find the distance between now and the count down date
     var distance = countDownDate - now;

@@ -11,7 +11,7 @@ export class TipComponent implements OnInit {
   firstTipDate: Date;
   
   constructor() { 
-    this.firstTipDate = new Date(2019, 7, 8, 18,0,0,0);
+    this.firstTipDate = new Date(2019, 8, 8, 18,0,0,0);
     this.now = new Date();
     console.log('now', this.now);
     console.log('firstTip', this.firstTipDate);
