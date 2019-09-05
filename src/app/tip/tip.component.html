@@ -1,4 +1,11 @@
 <div class="tip-body">
-  <h1>de verzamelde tips...</h1>
-  <p>sorriedesnorrie betsy, nog geen tips!</p>
+  <div *ngIf="beforeFirstTip()">
+    <h1>de verzamelde tips...</h1>
+    <p>sorriedesnorrie betsy, nog geen tips!</p>
+  </div>
+  <div *ngIf="!beforeFirstTip()">
+    <h1>Tip 1</h1>
+    <p>Kleine teleurstelling, dit was gewoon om te tonen hoe zo’n tip eruit ziet.</p>
+      <a href='https://www.youtube.com/watch?v=jfhGMnn9MWc'>Hihihi</a>
+  </div>
 </div>
