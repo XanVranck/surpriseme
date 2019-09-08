@@ -9,12 +9,12 @@ export class TipComponent implements OnInit {
 
   now:Date;
   firstTipDate: Date;
+  secondTipDate: Date;
   
   constructor() { 
     this.firstTipDate = new Date(2019, 8, 8, 18,0,0,0);
+    this.secondTipDate = new Date(2019, 8, 9, 18,0,0,0);
     this.now = new Date();
-    console.log('now', this.now);
-    console.log('firstTip', this.firstTipDate);
   }
 
   ngOnInit() {
@@ -22,5 +22,9 @@ export class TipComponent implements OnInit {
 
   beforeFirstTip():boolean {
     return this.now < this.firstTipDate;
+  }
+
+  secondTip():boolean {
+    return this.now > this.secondTipDate;
   }
 }
